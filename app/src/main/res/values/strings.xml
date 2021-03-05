@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">StickerText</string>
+    <string name="test_string">这是一段竖排的文字。这是一段竖排的文字。这是一段竖排的文字。这是一段竖排的文字。This is vertical text.This is vertical text.This is vertical text.这是一段竖排的文字。This is vertical text.これは縦書きのテキストの段落です。これは縦書きのテキストの段落です。Это абзац вертикального текста.Это абзац вертикального текста.Это абзац вертикального текста.Это абзац вертикального текста.นี่คือส่วนของข้อความแนวตั้งयह ऊर्ध्वाधर पाठ का एक खंड है।</string>
+</resources>
