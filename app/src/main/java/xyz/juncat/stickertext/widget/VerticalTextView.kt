@@ -307,7 +307,13 @@ class VerticalTextView : AppCompatTextView {
     }
 
     private fun getTextHeight(): Float {
-        return paint.fontMetrics.descent - paint.fontMetrics.ascent
+        val size = paint.fontMetrics.descent - paint.fontMetrics.ascent
+
+        return if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.LOLLIPOP) {
+            size + size * letterSpacing
+        } else {
+            return size
+        }
     }
 
     private fun getTextWidth(): Float {
